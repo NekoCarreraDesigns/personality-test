@@ -10,13 +10,23 @@
 </head>
 
 <body>
-    <H1>What death metal band are you?</H1>
-    <p>Based on basic personality questions this fun little app tells you what death metal band you are based on your
+    <img class="img">
+    <H1 class=" intro">What death metal band are you?</H1>
+    <p class="p1">Based on basic personality questions this fun little app tells you what death metal band you are based
+        on your
         answers.</p>
     <div class="container">
-        <div class="question-card">
-            <p>Let's get started</p>
-            <button class="start">Start</button>
+        <div id="question-container">
+            <div id="personality-questions">Let's get this pit started</div>
+            <div id="answer-buttons" class="btn-grid">
+                <button class="btn correct hide">Answer</button>
+                <button class="btn hide">Answer</button>
+                <button class="btn hide">Answer</button>
+            </div>
+            <div class="controls">
+                <button id="start-btn" class="start-btn btn">Start</button>
+                <button id="next-btn" class="next-btn btn hide">Next</button>
+            </div>
         </div>
     </div>
 
